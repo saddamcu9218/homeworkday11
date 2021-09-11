@@ -1,0 +1,289 @@
+
+*{
+margin: 0;
+padding: 0;
+
+}
+
+.box{
+	position: relative;
+	height: 100px;
+	width: 1370px;
+	background:deeppink;
+	border: 5px solid black;
+	
+}
+
+
+
+
+
+.box img{
+	position: absolute;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+top: 15px;
+left: 100px;
+
+}
+
+
+
+
+
+.menue li{
+
+	position: relative;
+	display: inline;
+	top: 25px;
+	left: 590px;
+}
+
+.menue li a{
+
+
+text-decoration: none;
+background:black;
+color: white;
+font-size: 15px;
+font-weight: bold;
+padding: 10px 15px;
+border:5px solid blue;
+text-transform: uppercase;
+
+}
+.menue li a:hover{
+background: green;
+
+}
+
+.box2{
+	position: relative;
+background:#555F64 ;
+height: 150px;
+width: 1375px;
+
+
+}
+.box2 h1{
+	font-size: 100px;
+	color: yellow;
+}
+
+.box2 img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 200px;
+	width: 400px;
+	color: black;
+	animation: moving 7s infinite;
+
+}
+
+@keyframes moving{
+
+0%{
+top: 0px;
+left: 0px;
+
+}
+
+25%{
+top: 0px;
+left: 1300px;
+
+}
+
+}
+
+.fahim{
+	background: red;
+	position: relative;
+	height: 350px;
+	width: 450px;
+	animation: perfect 5s infinite;
+
+
+}
+@keyframes perfect{
+
+0%{
+
+background: red;
+
+}
+
+10%{
+
+	background: deeppink;
+}
+
+
+20%{
+
+	background: blue;
+}
+
+30%{
+background: maroon;
+
+}
+
+40%{
+
+	background: black;
+}
+
+
+50%{
+
+background: green;
+}
+
+60%{
+
+background: orange;
+
+}
+
+70%{
+
+	background:#6E0AEE ;
+}
+
+80%{
+background:#0ACBEE ;
+
+
+}
+
+90%{
+
+background:#64EE0A ;
+
+}
+
+100%{
+background:#900C3F ;
+
+
+}
+}
+
+
+
+
+
+.fahim img {
+	position: absolute;
+	height: 350px;
+	width: 350x;
+	left: 90px;
+	top: 0px;
+}
+
+.divblue{
+	background: blue;
+	height: 110px;
+	width: 910px;
+	position: absolute;
+	left: 450px;
+	bottom: 238px;
+
+}
+.divblue h2{
+	color: white;
+	text-transform: capitalize;
+	font-weight: bolod;
+	position: absolute;
+	left: 300px;
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
+.divblue  p{
+	color: white;
+	position: absolute;
+	top: 50px;
+	left: 10px;
+}
+
+.divred{
+	background: red;
+	height: 150px;
+	width: 910px;
+	position: absolute;
+	left: 450px;
+	bottom: 88px;
+
+}
+
+
+.divyellow{
+	background: yellow;
+	height: 110px;
+	width: 910px;
+	position: absolute;
+	left: 450px;
+	bottom: 0px;
+
+}
+.footer{
+	position: absolute;
+	background: #581845;
+	height: 110px;
+	width: 1420px;
+	top: 611px;
+}
+
+.divred h2{
+	position: absolute;
+	color: yellow;
+	left: 240px;
+	text-transform: capitalize;
+	text-decoration: underline;
+	text-decoration-color: blue;
+
+}
+.divred p{
+position: absolute;
+	color: yellow;
+	top: 45px;
+	left: 30px;
+	font-size: 18px;
+}
+
+.divyellow h2{
+color: blue;
+position: absolute;
+left: 240px;
+text-decoration: underline;
+text-decoration-color: deeppink;
+
+}
+.divyellow p{
+	position: absolute;
+	color: blue;
+	left: 30px;
+	top: 45px;
+}
+
+.footer h2{
+position: absolute;
+color: white;
+left: 30px;
+font-size: 17px;
+top: 20px;
+
+}
+
+.box a img{
+	position: absolute;
+	left: 1250px;
+	width: 70px;
+	height:70px;
+	top: 5px;
+	border-radius: 50%;
+}
